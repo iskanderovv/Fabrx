@@ -27,7 +27,6 @@
     max-width: 376px;
     width: 100%;
     height: 48px;
-    background: white;
     border-radius: 6px;
 }
 
@@ -38,8 +37,9 @@
     font-size: 14px;
     font-weight: 400;
     border: none;
-    border-radius: 6px;
+    border-radius: 6px 0px 0px 6px;
     outline: none;
+    background-color: white;
 }
 
 .inbox-form__button {
@@ -49,9 +49,6 @@
     opacity: 0px;
     border: none;
     height: 100%;
-    position: relative;
-    z-index: 20;
-    cursor: pointer;
 }
 
 .inbox-form__button>i {
