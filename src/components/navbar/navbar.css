@@ -1,0 +1,44 @@
+:root {
+    --openSans: "Open Sans", sans-serif;
+}
+
+.nav {
+    height: 80px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-family: var(--openSans);
+}
+
+.nav__logo {
+    flex: 1;
+}
+
+.nav__profile {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-profile__img {
+    border-radius: 50%;
+}
+
+.nav-profile__name {
+    font-size: 16px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.nav__icons{
+    display: flex;
+    gap: 42px;
+}
+
+
+@media (max-width: 576px){
+    .nav__icons{
+        display: none;
+    }
+}
