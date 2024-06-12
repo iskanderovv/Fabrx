@@ -49,6 +49,9 @@
     opacity: 0px;
     border: none;
     height: 100%;
+    position: relative;
+    z-index: 20;
+    cursor: pointer;
 }
 
 .inbox-form__button>i {

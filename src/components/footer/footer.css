@@ -67,6 +67,9 @@
     opacity: 0px;
     border: none;
     height: 100%;
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
 }
 
 .footer-form__button>i {
