@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from '../navbar/navbar';
 import Hero from '../hero/hero';
 import FeaturedArticles from '../featured-articles/featured-articles';
+import Beached from '../beached/beached';
 import smartwatch from '../../images/smartwatch.png';
 import headphone from '../../images/headphone.png';
 import application from '../../images/applications.png';
@@ -27,11 +28,12 @@ function App() {
 
 
   return (
-    <div className="App">
+    <>
       <Navbar />
       <Hero />
       <FeaturedArticles data={data} />
-    </div>
+      <Beached />
+    </>
   );
 }
 

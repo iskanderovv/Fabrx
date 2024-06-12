@@ -61,10 +61,12 @@
 @media (max-width: 576px) {
     .hero {
         height: 500px;
+        padding: 20px;
     }
 
     .hero__content {
         max-width: 100%;
+        padding: 28px;
     }
 
     .hero-content__title {

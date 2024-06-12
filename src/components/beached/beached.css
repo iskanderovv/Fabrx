@@ -1,0 +1,58 @@
+.beached {
+    margin: 56px auto;
+    background: url("../../images/keyboard.png") center center / cover;
+    height: 375px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding: 64px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.beached__button {
+    background: #0D6EFD;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 4px 24px;
+}
+
+.beached__title {
+    font-family: "Montserrat", sans-serif;
+    padding: 16px 0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    max-width: 326px;
+}
+
+.beached__profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.beached-profile__img {
+    border-radius: 50%;
+}
+
+.beached-profile__name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+@media (max-width: 470px){
+    .beached{
+        padding: 64px calc(64px / 4);
+    }
+    .beached__title{
+        max-width: 100%;
+    }
+}
