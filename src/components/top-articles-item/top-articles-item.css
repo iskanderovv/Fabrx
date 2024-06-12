@@ -1,0 +1,83 @@
+.top-articles__card {
+    display: flex;
+    margin-top: 40px;
+    gap: 27px;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.top-articles-card__img {
+    max-width: 445px;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.top-articles-card__content {
+    width: 553px;
+}
+
+.top-articles-card-content__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    color: #212121;
+}
+
+.top-articles-card-content__profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 8px 0px 18px 0;
+}
+
+.top-articles-card-content-profile__name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #52647C;
+}
+
+.top-articles-card-content-profile__img {
+    border-radius: 50%;
+}
+
+.top-articles-card-content__info {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #52647C;
+}
+
+
+@media (max-width: 991px) {
+    .top-articles-card__img{
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 768px){
+    .top-articles__card{
+        flex-direction: column;
+    }
+    .top-articles-card__img{
+        max-width: 100%;
+    }
+    .top-articles-card__content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px){
+    .top-articles-card-content__title{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .top-articles-card-content-profile__name{
+        font-size: 12px;
+    }
+    .top-articles-card-content__info{
+        font-size: 12px;
+    }
+}
