@@ -49,6 +49,7 @@
     opacity: 0px;
     border: none;
     height: 100%;
+    color: white;
 }
 
 .inbox-form__button>i {
